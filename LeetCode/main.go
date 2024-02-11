@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	pascalstriangletwo "leetcode/PascalsTriangleTwo"
+	monotonicarray "leetcode/MonotonicArray"
 )
 
 func main() {
@@ -20,8 +20,27 @@ func main() {
 	// son := sqrtx.MySqrt(8)
 	// fmt.Println(son)
 
-	a := pascalstriangletwo.GetRow(1)
+	// a:=issubsequence.IsSubsequence("abc", "ahjdj")
 
-	fmt.Println(a)
+	// fmt.Println(a)
+
+	// a := [][]int{
+	// 	{1, 1, 0, 0, 0},
+	// 	{1, 1, 1, 1, 0},
+	// 	{1, 0, 0, 0, 0},
+	// 	{1, 1, 0, 0, 0},
+	// 	{1, 1, 1, 1, 1},
+	// }
+
+	// b := thekweakestrowsinamatrix.KWeakestRows(a, 3)
+	// fmt.Println(b)
+
+	// A := findthedifference.FindTheDifference("h", "hj")
+
+	// fmt.Println(A)
+
+	nums := []int{1,2,3,4}
+	m := monotonicarray.IsMonotonic(nums)
+	fmt.Println(m)
 
 }
